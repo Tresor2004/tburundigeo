@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include pyproject.toml
+recursive-include src/tburundigeo/data *.py
+recursive-include src/tburundigeo *.py
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+global-exclude .git*
+global-exclude .DS_Store

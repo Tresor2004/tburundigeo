@@ -1,0 +1,33 @@
+name: Publish with UV
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Install UV
+      uses: astral-sh/setup-uv@v2
+      with:
+        version: "latest"
+    
+    - name: Build with UV
+      run: |
+        uv build
+    
+    - name: Check package
+      run: |
+        pip install twine
+        twine check dist/*
+    
+    - name: Publish to PyPI
+      uses: pypa/gh-action-pypi-publish@release/v1
+      with:
+        password: ${{ secrets.PYPI_API_TOKEN }}
