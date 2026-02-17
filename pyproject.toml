@@ -10,13 +10,13 @@ readme = "README.md"
 license = {file = "LICENSE"}
 requires-python = ">=3.8"
 authors = [
-    {name = "NIYOMWUNGERE Tresor", email = "tresor.getintuch@outlook.com", role = "author", maintainer = true}
+    {name = "NIYOMWUNGERE Tresor", email = "tresor.getintouch@outlook.com", role = "author", maintainer = true}
 ]
 maintainers = [
-    {name = "NIYOMWUNGERE Tresor", email = "tresor.getintuch@outlook.com", role = "maintainer"}
+    {name = "NIYOMWUNGERE Tresor", email = "tresor.getintouch@outlook.com", role = "maintainer"}
 ]
 keywords = [
-    "burundi", "telona", "admin", "data", "geography", "hierarchy", 
+    "burundi", "telona", "tburundigeo", "data", "geography", "hierarchy", 
     "provinces", "communes", "zones", "quartiers", "capitals", 
     "chief-towns", "africa", "gis", "administrative", "boundaries",
     "api", "cli", "python", "package", "library"
