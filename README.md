@@ -16,7 +16,7 @@
 **TBurundiGeo** est un package Python robuste et complet pour exploiter les données administratives du Burundi (provinces, communes, zones, quartiers) avec **leurs capitales et chefs-lieux respectifs**. 
 
 🏗️ **Architecture :** Hexagonale (Clean Architecture)  
-👨‍💻 **Développeur :** NIYOMWUNGERE Tresor (travail solo)  
+👨‍💻 **Développeur :** NIYOMWUNGERE Trésor (travail solo)  
 🏢 **Organisation :** TELONA  
 📜 **Conformité :** Loi organique n°1/C5 du 16 mars 2023  
 📊 **Données :** 3044 quartiers, 451 zones, 42 communes, 5 provinces
@@ -89,7 +89,7 @@ Les données administratives fournies dans **TBurundiGeo** sont **100% conformes
 ### 🎯 **Fiabilité Garantie**
 
 - **✅ Découpage administratif officiel** en vigueur
-- **✅ Codes normalisés** (BI-PR-01, BI-CO-01-01, BI-ZO-01-01-01) cohérents avec la hiérarchie
+- **✅ Codes normalisés** (BI-PR-01, BI-CO-01-01, BI-ZO-01-01-01,BI-QU-01-01-01-01)   cohérents avec la hiérarchie
 - **✅ Références géoadministratives** utilisables en toute confiance
 - **✅ Intégrité référentielle** vérifiée et validée
 - **✅ Source officielle** gouvernementale burundaise
@@ -98,10 +98,10 @@ Les données administratives fournies dans **TBurundiGeo** sont **100% conformes
 
 | Niveau        | Code              | Entité |Nombre | Champs disponibles |
 |---------------|-------------------|--------|-------|--------------------|
-| **Provinces** | BI-PR-XX          |Province| 5     | code, name, **capital** |
-| **Communes**  | BI-CO-XX-XX       |Commune | 37    | code, name, **capital**, province_code |
-| **Zones**     | BI-ZO-XX-XX-XX    | Zone   | 506   | code, name, **chief_town**, commune_code |
-| **Quartiers** | BI-QT-XX-XX-XX-XX |Quartier| 47    | code, name, zone_code |
+| **Provinces** | BI-PR-XX | Province | 5 | code, name, capital |
+| **Communes** | BI-CO-XX-XX | Commune | 42 | code, name, capital, province_code |
+| **Zones** | BI-ZO-XX-XX-XX | Zone | 451 | code, name, chief_town, commune_code |
+| **Quartiers** | BI-QT-XX-XX-XX-XX |Quartier| 3044 | code, name, zone_code |
 
 ### 🔒 **Certification**
 
@@ -111,10 +111,10 @@ Les données administratives fournies dans **TBurundiGeo** sont **100% conformes
 
 | Type | Quantité | Champs principaux | Nouveaux champs |
 |------|-----------|------------------|------------------|
-| **Provinces** | 17 | code, name | **capital** ✨ |
-| **Communes** | 37 | code, name, province_code | capital |
-| **Zones** | 35+ | code, name, commune_code | **chief_town** ✨ |
-| **Quartiers** | 47 | code, name, zone_code | - |
+| **Provinces** | 5 | code, name | **capital** ✨ |
+| **Communes** | 42 | code, name, province_code | capital |
+| **Zones** | 451 | code, name, commune_code | **chief_town** ✨ |
+| **Quartiers** | 3044 | code, name, zone_code | - |
 
 ## 🏗️ Architecture
 
