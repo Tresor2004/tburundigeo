@@ -89,7 +89,7 @@ Les données administratives fournies dans **TBurundiGeo** sont **100% conformes
 ### 🎯 **Fiabilité Garantie**
 
 - **✅ Découpage administratif officiel** en vigueur
-- **✅ Codes normalisés** (BI-PR-01, BI-CO-01-01, BI-ZO-01-01-01,BI-QU-01-01-01-01)   cohérents avec la hiérarchie
+- **✅ Codes normalisés** (BI-PR-01, BI-CO-01-01, BI-ZO-01-01-01,BI-QT-01-01-01-01)   cohérents avec la hiérarchie
 - **✅ Références géoadministratives** utilisables en toute confiance
 - **✅ Intégrité référentielle** vérifiée et validée
 - **✅ Source officielle** gouvernementale burundaise
@@ -505,7 +505,7 @@ Ce projet est sous license MIT. Voir le fichier [LICENSE](LICENSE) pour plus de 
 Projet développé en **travail solo** par **NIYOMWUNGERE Tresor** sous l'entité **TELONA**.
 
 - **Développeur principal**: NIYOMWUNGERE Tresor
-- **Email**: `tresor.getintuch@outlook.com`
+- **Email**: `tresor.getintouch@outlook.com`
 - **WhatsApp**: `+25767594226`
 - **GitHub**: https://github.com/tresor2004
 - **Nationalité**: Burundaise
@@ -514,7 +514,7 @@ Merci à la communauté burundaise pour la validation des données administrativ
 
 ## 📞 Support & Contact
 
-- **Email** : `tresor.getintuch@outlook.com`
+- **Email** : `tresor.getintouch@outlook.com`
 - **WhatsApp** : `+25767594226`
 - **GitHub** : https://github.com/tresor2004/tburundigeo
 - **Documentation** : https://tburundigeo.readthedocs.io
