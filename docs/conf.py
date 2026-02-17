@@ -6,9 +6,9 @@ sys.path.insert(0, os.path.abspath('../src'))
 
 # -- Project information -----------------------------------------------------
 project = 'TBurundiGeo'
-copyright = '2026, TELONA Team - NIYOMWUNGERE Tresor'
-author = 'TELONA Team - NIYOMWUNGERE Tresor'
-release = '1.0.0'
+copyright = '2026, NIYOMWUNGERE Tresor'
+author = 'NIYOMWUNGERE Tresor'
+release = '1.0.2'
 
 # -- General configuration ---------------------------------------------------
 extensions = [
