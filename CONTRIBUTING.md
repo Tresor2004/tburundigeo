@@ -21,7 +21,7 @@ Nous apprécions particulièrement les contributions dans les domaines suivants 
 #### 🏛️ **Amélioration des Données**
 - Mise à jour des données administratives
 - Correction des incohérences
-- Ajout de nouvelles informations (les hôpitaux,les centres de santé,les ecoles ,banks)
+- Ajout de nouvelles informations (les hôpitaux,les centres de santé,banks...)
 - Validation contre les sources officielles
 
 #### 🔧 **Développement Technique**
@@ -159,7 +159,6 @@ Utiliser le format [Conventional Commits](https://www.conventionalcommits.org/) 
 feat: ajouter la recherche par coordonnées GPS
 fix: corriger le comptage des quartiers dans Bujumbura
 docs: mettre à jour la documentation d'installation
-refactor: optimiser les requêtes de base de données
 test: ajouter des tests pour les statistiques détaillées
 ```
 
@@ -208,7 +207,7 @@ test: ajouter des tests pour les statistiques détaillées
 - 🏛️ **Institutions gouvernementales** seeking digital solutions
 - 📊 **Companies de données/GIS** needing African administrative data
 
-**Contact :** `tresor.getintuch@outlook.com`  
+**Contact :** `tresor.getintouch@outlook.com`  
 **Sujet :** `Partenariat TBurundiGeo`
 
 ### 🏛️ **Pour les ONG et Organisations**
@@ -256,11 +255,11 @@ Un grand merci à tous les contributeurs qui améliorent TBurundiGeo !
 
 ## 📞 Contact
 
-- **Email :** `tresor.getintuch@outlook.com`
+- **Email :** `tresor.getintouch@outlook.com`
 - **WhatsApp :** `+25767594226`
 - **GitHub :** https://github.com/tresor2004/tburundigeo
 - **Documentation :** https://tburundigeo.readthedocs.io
 
 ---
 
-**En contribuant à TBurundiGeo, vous aidez à démocratiser l'accès aux données administratives du Burundi !** 🇧🇮✨
+**En contribuant à TBurundiGeo, vous aidez à démocratiser l'accès aux données administratives du Burundi !** 

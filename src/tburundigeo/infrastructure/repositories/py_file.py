@@ -38,7 +38,7 @@ class BasePyFileRepository:
         
         try:
             # Try to import as a module first
-            if self.data_module_path.startswith('burundi_admin.data.') or self.data_module_path.startswith('tburundigeo.data.'):
+            if self.data_module_path.startswith('tburundigeo.data.'):
                 module = importlib.import_module(self.data_module_path)
             else:
                 # Load as file path
@@ -103,7 +103,7 @@ class BasePyFileRepository:
 class PyFileProvinceRepository(BasePyFileRepository, IProvinceRepository):
     """Repository implementation for provinces using Python files."""
     
-    def __init__(self, data_module_path: str = "burundi_admin.data.provinces") -> None:
+    def __init__(self, data_module_path: str = "tburundigeo.data.provinces") -> None:
         super().__init__(data_module_path)
     
     def get_all(self) -> List[Province]:
@@ -171,7 +171,7 @@ class PyFileProvinceRepository(BasePyFileRepository, IProvinceRepository):
 class PyFileCommuneRepository(BasePyFileRepository, ICommuneRepository):
     """Repository implementation for communes using Python files."""
     
-    def __init__(self, data_module_path: str = "burundi_admin.data.communes") -> None:
+    def __init__(self, data_module_path: str = "tburundigeo.data.communes") -> None:
         super().__init__(data_module_path)
     
     def get_all(self) -> List[Commune]:
@@ -291,7 +291,7 @@ class PyFileCommuneRepository(BasePyFileRepository, ICommuneRepository):
 class PyFileZoneRepository(BasePyFileRepository, IZoneRepository):
     """Repository implementation for zones using Python files."""
     
-    def __init__(self, data_module_path: str = "burundi_admin.data.zones") -> None:
+    def __init__(self, data_module_path: str = "tburundigeo.data.zones") -> None:
         super().__init__(data_module_path)
     
     def get_all(self) -> List[Zone]:
@@ -392,7 +392,7 @@ class PyFileZoneRepository(BasePyFileRepository, IZoneRepository):
 class PyFileQuartierRepository(BasePyFileRepository, IQuartierRepository):
     """Repository implementation for quartiers using Python files."""
     
-    def __init__(self, data_module_path: str = "burundi_admin.data.quartiers") -> None:
+    def __init__(self, data_module_path: str = "tburundigeo.data.quartiers") -> None:
         super().__init__(data_module_path)
     
     def get_all(self) -> List[Quartier]:

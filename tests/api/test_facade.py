@@ -334,11 +334,11 @@ class TestAPIFacade:
     def test_set_data_source(self):
         """Test setting data source."""
         # Save original data source
-        original_source = os.getenv("BURUNDI_ADMIN_DATA_SOURCE", "burundi_admin.data")
+        original_source = os.getenv("TBURUNDIGEO_DATA_SOURCE", "tburundigeo.data")
         
         # Test setting new data source
         set_data_source("test.data.source")
-        assert os.getenv("BURUNDI_ADMIN_DATA_SOURCE") == "test.data.source"
+        assert os.getenv("TBURUNDIGEO_DATA_SOURCE") == "test.data.source"
         
         # Restore original
         set_data_source(original_source)

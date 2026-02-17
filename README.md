@@ -399,14 +399,14 @@ set_data_source(data_source: str) -> None
 Par défaut, le package utilise les données incluses. Vous pouvez spécifier une source personnalisée :
 
 ```python
-from burundi_admin import set_data_source
+from tburundigeo import set_data_source
 
 # Utiliser vos propres fichiers Python
 set_data_source("my_project.data")
 
 # Ou via variable d'environnement
 import os
-os.environ["BURUNDI_ADMIN_DATA_SOURCE"] = "my_project.data"
+os.environ["TBURUNDIGEO_DATA_SOURCE"] = "my_project.data"
 ```
 
 ### Format des données
@@ -432,13 +432,13 @@ data = [
 
 ```bash
 # Installer les dépendances de test
-pip install burundi-admin[dev]
+pip install tburundigeo[dev]
 
 # Exécuter tous les tests
 pytest
 
 # Avec couverture
-pytest --cov=burundi_admin --cov-report=html
+pytest --cov=tburundigeo --cov-report=html
 
 # Tests spécifiques
 pytest tests/domain/
