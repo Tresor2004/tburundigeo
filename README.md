@@ -416,14 +416,17 @@ Les données doivent suivre ce format :
 ```python
 # my_project/data/provinces.py
 data = [
-    {"code": "BI-PR-01", "name": "Bujumbura Mairie"},
-    {"code": "BI-PR-02", "name": "Gitega"},
-    # ...
+    {"code": "BI-PR-01", "name": "BUHU MUZA", "capital": "Cankuzo"},
+    {"code": "BI-PR-02", "name": "BUJUMBURA", "capital": "Bujumbura"},
+    {"code": "BI-PR-03", "name": "BURUNGA", "capital": "Mwaro"},
+    {"code": "BI-PR-04", "name": "BUTANYERERA", "capital": "Ngozi"},
+    {"code": "BI-PR-05", "name": "GITEGA", "capital": "Gitega"},
 ]
 
 # my_project/data/communes.py
 data = [
-    {"code": "BI-CO-01-01", "name": "Muha", "capital": "Muha", "province_code": "BI-PR-01"},
+    {"code": "BI-CO-01-01", "name": "Butaganzwa", "capital": "Butaganzwa", "province_code": "BI-PR-01"},
+    {"code": "BI-CO-02-01", "name": "Muha", "capital": "Muha", "province_code": "BI-PR-02"},
     # ...
 ]
 ```
