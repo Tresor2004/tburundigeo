@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "tburundigeo"
-version = "1.0.1"
+version = "1.0.2"
 description = "Package Python professionnel pour les données administratives du Burundi avec architecture hexagonale moderne"
 readme = "README.md"
 license = {file = "LICENSE"}
