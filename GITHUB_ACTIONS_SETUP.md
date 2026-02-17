@@ -28,7 +28,23 @@ Allez sur : https://github.com/Tresor2004/tburundigeo/settings/secrets/actions
 2. Créez un token pour PyPI officiel
 3. Copiez le token dans le secret GitHub
 
-### 2️⃣ **Comment publier**
+### 2️⃣ **Créer l'environnement GitHub**
+1. Allez sur : https://github.com/Tresor2004/tburundigeo/settings/environments
+2. **New environment**
+3. **Nom** : `release`
+4. **Environment protection rules** : Laissez vide pour commencer
+5. **Add environment**
+
+### 3️⃣ **Configurer PyPI avec OpenID Connect**
+1. Allez sur : https://pypi.org/manage/account/publishing/
+2. **Add a new publisher**
+3. **Owner** : `Tresor2004`
+4. **Repository name** : `tburundigeo`
+5. **Workflow filename** : `publish.yml`
+6. **Environment name** : `release`
+7. **Create publisher**
+
+### 4️⃣ **Comment publier**
 
 **Pour TestPyPI (pré-release) :**
 1. GitHub → Releases → "Create a new release"
